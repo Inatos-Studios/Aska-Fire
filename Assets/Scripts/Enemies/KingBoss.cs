@@ -77,14 +77,14 @@ public class KingBoss : MonoBehaviour {
         waitTime = 3;
     }
 
-    void Update() {
-        switch(currentRoutine) {
+    void Update(){
+        switch (currentRoutine){
             case routine.A:
 
-                switch(idStage) {
+                switch (idStage){
                     case 0: // ESPERA 3 SEGUNDOS E DEFINE O DESTINO
                         tempTime += Time.deltaTime;
-                        if(tempTime >= waitTime) {
+                        if (tempTime >= waitTime){
                             idStage += 1;
                             target = wayPoints[1];
                             h = -1;
@@ -93,7 +93,7 @@ public class KingBoss : MonoBehaviour {
                         break;
 
                     case 1: // MOVE ATÉ O DESTINO
-                        if(transform.position.x <= target.position.x) {
+                        if (transform.position.x <= target.position.x){
                             idStage += 1;
                             tempTime = 0;
                             waitTime = 3;
@@ -103,7 +103,7 @@ public class KingBoss : MonoBehaviour {
 
                     case 2:
                         tempTime += Time.deltaTime;
-                        if(tempTime >= waitTime) {
+                        if (tempTime >= waitTime){
                             idStage += 1;
                             target = wayPoints[0];
                             h = 1;
@@ -111,7 +111,7 @@ public class KingBoss : MonoBehaviour {
                         break;
 
                     case 3: // FIM DA ROTINA A
-                        if(transform.position.x >= target.position.x) {
+                        if (transform.position.x >= target.position.x){
                             h = 0;
                             currentRoutine = routine.B;
                             idStage = 0;
@@ -125,10 +125,10 @@ public class KingBoss : MonoBehaviour {
 
             case routine.B:
 
-                switch(idStage) {
+                switch (idStage){
                     case 0: // ESPERA 3 SEGUNDOS E DEFINE O DESTINO
                         tempTime += Time.deltaTime;
-                        if(tempTime >= waitTime) {
+                        if (tempTime >= waitTime){
                             idStage += 1;
                             target = wayPoints[1];
                             h = -1;
@@ -137,7 +137,7 @@ public class KingBoss : MonoBehaviour {
                         break;
 
                     case 1: // MOVE ATÉ O DESTINO
-                        if(transform.position.x <= target.position.x) {
+                        if (transform.position.x <= target.position.x){
                             idStage += 1;
                             tempTime = 0;
                             waitTime = 3;
@@ -147,7 +147,7 @@ public class KingBoss : MonoBehaviour {
 
                     case 2:
                         tempTime += Time.deltaTime;
-                        if(tempTime >= waitTime) {
+                        if (tempTime >= waitTime){
                             idStage += 1;
                             target = wayPoints[2];
                             h = 1;
@@ -155,7 +155,7 @@ public class KingBoss : MonoBehaviour {
                         break;
 
                     case 3: // FIM DA ROTINA A
-                        if(transform.position.x >= target.position.x) {
+                        if (transform.position.x >= target.position.x){
                             h = 0;
                             idStage += 1;
                             //rb2d.AddForce(new Vector2(0,320));
@@ -165,7 +165,7 @@ public class KingBoss : MonoBehaviour {
 
                     case 4:
                         tempTime += Time.deltaTime;
-                        if(tempTime >= waitTime) {
+                        if (tempTime >= waitTime){
                             idStage += 1;
                         }
                         break;
@@ -183,7 +183,7 @@ public class KingBoss : MonoBehaviour {
 
                     case 6:
                         tempTime += Time.deltaTime;
-                        if(tempTime >= waitTime) {
+                        if (tempTime >= waitTime){
                             idStage += 1;
                             isMove = false;
                             //rb2d.AddForce(new Vector2(200, 250));
@@ -194,7 +194,7 @@ public class KingBoss : MonoBehaviour {
 
                     case 7:
                         tempTime += Time.deltaTime;
-                        if(tempTime >= waitTime) {
+                        if (tempTime >= waitTime){
                             
                             if(isGrounded == true) {
                                 target = wayPoints[2];
@@ -206,7 +206,7 @@ public class KingBoss : MonoBehaviour {
                         break;
 
                     case 8: // FIM DA ROTINA B
-                        if(transform.position.x <= target.position.x) {
+                        if (transform.position.x <= target.position.x){
                             int rand = Random.Range(0,100);
                             if(rand < 50) {
                                 target = wayPoints[0];
@@ -223,7 +223,7 @@ public class KingBoss : MonoBehaviour {
                         break;
 
                     case 9: // CASO VÁ PARA O PONTO A
-                        if(transform.position.x >= target.position.x) {
+                        if (transform.position.x >= target.position.x){
                             idStage = 0;
                             tempTime = 0;
                             waitTime = 3;
@@ -233,7 +233,7 @@ public class KingBoss : MonoBehaviour {
                         break;
 
                     case 10: // CASO VÁ PARA O PONTO B
-                        if(transform.position.x <= target.position.x) {
+                        if (transform.position.x <= target.position.x){
                             h = 0;
                         }
                         break;
@@ -242,14 +242,14 @@ public class KingBoss : MonoBehaviour {
                 break;
         }
        
-        if(h > 0 && lookleft == true) {
+        if (h > 0 && lookleft == true){
             Flip();
         
-        } else if(h < 0 && lookleft == false) {
+        } else if (h < 0 && lookleft == false){
             Flip();
         }
 
-        if (isMove == true) {
+        if (isMove == true){
         rb2d.velocity = new Vector2(h * speed, rb2d.velocity.y);
         }
 
@@ -257,17 +257,17 @@ public class KingBoss : MonoBehaviour {
 
     }
 
-    void FixedUpdate() {
+    void FixedUpdate(){
         Grounded = Physics2D.Linecast(transform.position, isGrounded.position, 1 << LayerMask.NameToLayer("Ground"));
     }
 
-    void Flip() {
+    void Flip(){
         lookleft = !lookleft;
         float x = transform.localScale.x * -1;
         transform.localScale = new Vector3(x, transform.localScale.y, transform.localScale.z);
     }
     
-    IEnumerator DamageEffect() {
+    IEnumerator DamageEffect(){
         anim.SetTrigger("Hurt");
         float actualSpeed = speed;
         speed = speed * -1;
@@ -279,7 +279,7 @@ public class KingBoss : MonoBehaviour {
 //        SoundManager.instance.PlaySound(fxHurt);
     }
     
-    void DamageEnemy() {
+    void DamageEnemy(){
         health--;
         StartCoroutine(DamageEffect());
 
@@ -288,12 +288,12 @@ public class KingBoss : MonoBehaviour {
         }
     }
 
-    void OnDrawGizmosSelected() { 
+    void OnDrawGizmosSelected(){ 
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackCheck.position, radiusAttack);
     }
 
-    void EnemyAttack() {
+    void EnemyAttack(){
         Collider2D[] playerAttack = Physics2D.OverlapCircleAll (attackCheck.position, radiusAttack, layerPlayer);
         for (int i = 0; i < playerAttack.Length; i++) {
             playerAttack [i].SendMessage ("DamagePlayer", SendMessageOptions.DontRequireReceiver);
@@ -301,7 +301,7 @@ public class KingBoss : MonoBehaviour {
         }
     }
 
-    IEnumerator KingDead() {
+    IEnumerator KingDead(){
         anim.SetTrigger("Dead");
         rb2d.constraints = RigidbodyConstraints2D.FreezeAll;
         GetComponent<Collider2D>().enabled = false;
@@ -310,29 +310,29 @@ public class KingBoss : MonoBehaviour {
 //        SoundManager.instance.PlaySound(fxDeath);
     }
 
-    public void EnemyHit(string value) {
-        if (damageText != null) {
+    public void EnemyHit(string value){
+        if (damageText != null){
             var damage = Instantiate(damageText, transform.position, Quaternion.identity);
             damage.SendMessage("SetText", value);
         }
     }
 
-    public void SummonMelee() {
+    public void SummonMelee(){
         GameObject cloneSwordskull = Instantiate(swordskullPrefab, skullWarrior.transform.position, Quaternion.identity);
 //        SoundManager.instance.PlaySound(fxSummon);
     }
 
-    public void SummonArcher() {
+    public void SummonArcher(){
         EnemyArcher.health = 1;
 //        SoundManager.instance.PlaySound(fxSummon);
     }
 
-    public void SummonArcherA() {
+    public void SummonArcherA(){
         EnemyArcher.health = 1;
 //        SoundManager.instance.PlaySound(fxSummon);
     }
 
-    public void Teleport() {
+    public void Teleport(){
         transform.position = teleport.transform.position;
     }
 }
