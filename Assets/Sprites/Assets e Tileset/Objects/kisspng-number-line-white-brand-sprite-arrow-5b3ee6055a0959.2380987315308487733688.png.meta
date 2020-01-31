@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: bc7204531bccc594a97efe3ce674d686
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_0
+    21300002: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_1
+    21300004: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_2
+    21300006: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_3
+    21300008: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_4
+    21300010: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_5
+    21300012: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_6
+    21300014: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_7
+    21300016: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_8
+    21300018: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_9
+    21300020: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_10
+    21300022: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_11
+    21300024: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_12
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 406
+        width: 125
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd864a67e3858db408fae346f25488a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 415
+        width: 61
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c1db38b9e4e534f8f51f12dc89e6b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 406
+        width: 62
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64769c1058d622641818f8bbd92fd1fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 413
+        width: 64
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96de30dfddf7e464292a6d0f61c6757d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_4
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 406
+        width: 65
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77108f9545085242a6b4bfa7438cd66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 228
+        width: 67
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6104058f9bb32343b14f8409ad2918d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 218
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01d9a6f8f8d74e47b5d96fc1ce2a393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 218
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5369b25d3257346a6888b51db04e92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_8
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 249
+        width: 128
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fc6246fdcfc244e8e99f905474b626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 30
+        width: 120
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdd70b481c18d747833b6f09137ab52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 100
+        width: 127
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0740be46a6fa646ad37d3dc673ad5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_11
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 30
+        width: 84
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb2edc41ed4ee94db1fb1c5e30a3264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-number-line-white-brand-sprite-arrow-5b3ee6055a0959.2380987315308487733688_12
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 36
+        width: 127
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b16c14f3c4937c42a69942609520db8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 03dcdca876ff0d04a9622e71a66a9e8f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Lava
+  - Coin
+  - Limited
+  - Apple
+  - Mola
+  - Portal
+  - Scenario
+  - Power
+  - "Colet\xE1vel"
+  - KingBoss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Ground
+  - Level
+  - Enemy
+  - Interaction
+  - Coletaveis
+  - KingBoss
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 55856899
+    locked: 0
+  - name: Ground
+    uniqueID: 190238117
+    locked: 0
+  - name: Ocean
+    uniqueID: 3040454659
+    locked: 0
+  - name: Enemies
+    uniqueID: 1303283681
+    locked: 0
+  - name: Boat
+    uniqueID: 2351548929
+    locked: 0
