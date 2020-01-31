@@ -238,7 +238,6 @@ public class KingBoss : MonoBehaviour {
                         }
                         break;
                 }
-
                 break;
         }
        
