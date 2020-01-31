@@ -7,11 +7,11 @@ public class DamageEnemy : MonoBehaviour {
 
     public Text damage;
 
-    void Start() {
+    void Start(){
         Destroy(gameObject, 0.5f);        
     }
 
-    public void SetText(string value) {
+    public void SetText(string value){
         damage.text = value;
     }
 }
