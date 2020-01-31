@@ -16,13 +16,13 @@ public class NewArrow : MonoBehaviour {
 
 	Vector3 startPos;
 	
-	void Start() {
+	void Start(){
 	    player = GameObject.Find("Player").GetComponent<Transform> ();	
         targetPos = player.transform.position;
         startPos = transform.position;
 	}
 	
-	void Update() {
+	void Update(){
 		float x0 = startPos.x;
 		float x1 = targetPos.x;
 		float dist = x1 - x0;
@@ -37,11 +37,11 @@ public class NewArrow : MonoBehaviour {
 		if (nextPos == targetPos) Arrived();
 	}
 	
-	void Arrived() {
+	void Arrived(){
 		Destroy(gameObject);
 	}
 
-	static Quaternion LookAt2D(Vector2 forward) {
+	static Quaternion LookAt2D(Vector2 forward){
 		return Quaternion.Euler(0, 0, Mathf.Atan2(forward.y, forward.x) * Mathf.Rad2Deg);
 	}
 }
