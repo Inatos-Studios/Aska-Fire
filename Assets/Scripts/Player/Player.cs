@@ -34,7 +34,6 @@ public class Player : MonoBehaviour {
     public LayerMask layerEnemy;
 
     [Header("Interaction")]
-
     public Transform hand;
     private Vector3 dir = Vector3.right;
     public LayerMask interaction;
